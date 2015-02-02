@@ -1,4 +1,5 @@
 html, body{ 
+	width:100%;
 	height:100%;
 	margin:0;
 	padding:0;
@@ -9,6 +10,18 @@ html, body{
 
 .soc > a{
 	color: black;
+}
+#header{
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("http://ashthorp.com/content/work/14-rise-of-an-empire/1-images/300-website-1280-at-09.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
 }
 
 #header .row-fluid{
@@ -30,4 +43,34 @@ html, body{
 .centering {
 	float:none;
 	margin:0 auto;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn.sharp {
+  border-radius:0;
 }
