@@ -29,12 +29,21 @@ html, body{
 }
 
 #about{
+    margin-top: 50px;
     width: 55%;
+}
+
+#footer{
+    height: 7%;
+    background-color: grey;
+}
+
+#foot-text{
+    margin-top: 20px;
 }
 
 .carousel{
     margin-top: 50px;
-
 }
 
 .container-fluid{
